@@ -44,7 +44,23 @@
 										<li>Unparalleled support systems</li>
 										<li>Access to a diverse range of products and services</li>
 									</blockquote></ul>
-									<p><a href="https://tinyurl.com/meetbdesai" target="_blank">Click Here</a> to book the timeslot. We look forward to working with you to achieve your financial goals!</p>	
+									<p>Select a time slot in the calendar below. We’re excited to help you achieve your financial goals!</p>	
+
+							<!-- Cal inline embed code begins -->
+								<div style="width:100%;height:100%;overflow:scroll" id="my-cal-inline"></div>
+								<script type="text/javascript">
+								(function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+								Cal("init", "bright-path-contact", {origin:"https://cal.com"});
+
+								Cal.ns["bright-path-contact"]("inline", {
+								elementOrSelector:"#my-cal-inline",
+								config: {"layout":"month_view"},
+								calLink: "meetbdesai/bright-path-contact",
+								});
+
+								Cal.ns["bright-path-contact"]("ui", {"cssVarsPerTheme":{"light":{"cal-brand":"#292929"}},"hideEventTypeDetails":false,"layout":"month_view"});
+								</script>
+							<!-- Cal inline embed code ends -->
 									
 									<hr class="major" />
 								</section>
