@@ -1,0 +1,9 @@
+<script async src='https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
+        <script>
+          var wa_btnSetting = {"btnColor":"#f56a6a","ctaText":"Let's Connect","cornerRadius":"40","marginBottom":"20","marginLeft":"20","marginRight":"20","btnPosition":"right","whatsAppNumber":"16303911079","welcomeMessage":"Hello BrightPath Team, I’m interested in learning about the products and opportunities you offer. Could you please setup some time with me and provide more information?","zIndex":"999999","btnColorScheme":"light"};
+          var wa_widgetSetting = {"title":"BrightPath","subTitle":"Typically replies in a day","headerBackgroundColor":"#f56a6a","headerColorScheme":"light","greetingText":"Greetings,\nHow can we help?","ctaText":"Let's Connect","btnColor":"#1A1A1A","cornerRadius":"40","welcomeMessage":"Hello","btnColorScheme":"light","brandImage":"https://getbrightpath.com/images/logos/Background.png","darkHeaderColorScheme":{"title":"#333333","subTitle":"#4F4F4F"}};  
+          window.onload = () => {
+            _waEmbed(wa_btnSetting, wa_widgetSetting);
+          };
+</script>
+      
